@@ -1,17 +1,17 @@
 
-// var obj = {
-//   name : 'Kushal'
-// };
-//
-// var stringObj = JSON.stringify(obj);
-// console.log(typeof stringObj);
-// console.log(stringObj);
+var obj = {
+  name : 'Kushal'
+};
+
+var stringObj = JSON.stringify(obj);
+console.log(typeof stringObj);
+console.log(stringObj);
 
 
-// var personString = '{"name":"Kushal","age":25}';
-// var person = JSON.parse(personString);
-// console.log(person);
-// console.log(typeof person);
+var personString = '{"name":"Kushal","age":25}';
+var person = JSON.parse(personString);
+console.log(person);
+console.log(typeof person);
 
 const fs = require('fs')
 
